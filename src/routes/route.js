@@ -7,6 +7,6 @@ router.get('/test-me', function (req, res) {
 })
 
 router.post('/createList',pizzaList)
-router.get('/get',getpizaaList)
+router.get('/getList',getpizaaList)
 
 module.exports = router
